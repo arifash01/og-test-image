@@ -1,7 +1,7 @@
 steps:
   - name: gcr.io/cloud-builders/docker
-    args: ["build", "-t", "staging-qual-us-west1-docker.pkg.dev/sdlc-og-test/og-test/nginx:latest", "."]
-images: ["staging-qual-us-west1-docker.pkg.dev/sdlc-og-test/og-test/nginx:latest"]
+    args: ["build", "-t", "us-west1-docker.pkg.dev/sdlc-og-test/og-test/nginx:latest", "."]
+images: ["us-west1-docker.pkg.dev/sdlc-og-test/og-test/nginx:latest"]
 options:
   requestedVerifyOption: VERIFIED
   logging: CLOUD_LOGGING_ONLY
